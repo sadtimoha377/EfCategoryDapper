@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efone\\efone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|solutionrelative:efone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efone\\efone\\migrations\\20260525174107_addcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|solutionrelative:efone\\migrations\\20260525174107_addcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efone\\efone\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|solutionrelative:efone\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efone\\efone\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|solutionrelative:efone\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efone\\efone\\class\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F8C461-040E-40D5-8FA2-A048659B1EA0}|EfOne\\EfOne.csproj|solutionrelative:efone\\class\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:41:23.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260525174107_AddCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
+              "RelativeDocumentMoniker": "EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
+              "RelativeToolTip": "EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:41:07.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EfOne\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EfOne\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:28:02.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Class\\Category.cs",
+              "RelativeDocumentMoniker": "EfOne\\Class\\Category.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Class\\Category.cs",
+              "RelativeToolTip": "EfOne\\Class\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:26:56.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Program.cs",
+              "RelativeDocumentMoniker": "EfOne\\Program.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\Program.cs",
+              "RelativeToolTip": "EfOne\\Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:25:08.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
