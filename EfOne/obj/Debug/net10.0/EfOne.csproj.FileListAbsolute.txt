@@ -153,3 +153,4 @@ C:\Users\mcalchemist\source\repos\EfOne\EfOne\obj\Debug\net10.0\refint\EfOne.dll
 C:\Users\mcalchemist\source\repos\EfOne\EfOne\obj\Debug\net10.0\EfOne.pdb
 C:\Users\mcalchemist\source\repos\EfOne\EfOne\obj\Debug\net10.0\EfOne.genruntimeconfig.cache
 C:\Users\mcalchemist\source\repos\EfOne\EfOne\obj\Debug\net10.0\ref\EfOne.dll
+C:\Users\mcalchemist\source\repos\EfOne\EfOne\obj\Debug\net10.0\EfOne.sourcelink.json

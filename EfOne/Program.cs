@@ -12,6 +12,8 @@ while (isRunning)
     Console.WriteLine("4 - Find by ID");
     Console.WriteLine("5 - Find by name");
     Console.WriteLine("6 - Update category");
+    Console.WriteLine("7 - Create product");
+    Console.WriteLine("8 - Edit product");
     Console.WriteLine("0 - Exit");
 
     Console.Write("Your choice: ");
@@ -135,6 +137,61 @@ while (isRunning)
                 else
                 {
                     Console.WriteLine("Category not found!");
+                }
+
+                break;
+            }
+
+        case "7":
+            {
+                Console.Write("Name: ");
+                string? name = Console.ReadLine();
+
+                Console.Write("Description: ");
+                string? description = Console.ReadLine();
+
+                Console.Write("Price: ");
+                decimal price = decimal.Parse(Console.ReadLine()!);
+
+                Product product = new()
+                {
+                    Name = name!,
+                    Description = description!,
+                    Price = price
+                };
+
+                db.Products.Add(product);
+                db.SaveChanges();
+
+                Console.WriteLine("Product created!");
+                break;
+            }
+
+        case "8":
+            {
+                Console.Write("Product ID: ");
+                int id = int.Parse(Console.ReadLine()!);
+
+                var product = db.Products.Find(id);
+
+                if (product != null)
+                {
+                    Console.Write("New name: ");
+                    product.Name = Console.ReadLine()!;
+
+                    Console.Write("New description: ");
+                    product.Description = Console.ReadLine()!;
+
+                    Console.Write("New price: ");
+                    product.Price = decimal.Parse(Console.ReadLine()!);
+
+                    db.SaveChanges();
+
+                    Console.WriteLine("Product updated!");
+                }
+                else
+                {
+                    Console.WriteLine("Product not found!");
                 }
 
                 break;
