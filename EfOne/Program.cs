@@ -14,6 +14,12 @@ while (isRunning)
     Console.WriteLine("6 - Update category");
     Console.WriteLine("7 - Create product");
     Console.WriteLine("8 - Edit product");
+    Console.WriteLine("9 - Delete product");
+    Console.WriteLine("10 - Show products by categories");
+    Console.WriteLine("11 - Product count in categories");
+    Console.WriteLine("12 - Cheapest product in categories");
+    Console.WriteLine("13 - Average price in categories");
+    Console.WriteLine("14 - Show deleted products");
     Console.WriteLine("0 - Exit");
 
     Console.Write("Your choice: ");
@@ -153,11 +159,24 @@ while (isRunning)
                 Console.Write("Price: ");
                 decimal price = decimal.Parse(Console.ReadLine()!);
 
+                Console.Write("Category ID: ");
+                int categoryId = int.Parse(Console.ReadLine()!);
+
+                var category = db.Categories.Find(categoryId);
+
+                if (category == null)
+                {
+                    Console.WriteLine("Category not found!");
+                    break;
+                }
+
                 Product product = new()
                 {
                     Name = name!,
                     Description = description!,
-                    Price = price
+                    Price = price,
+                    IsDeleted = false,
+                    CategoryId = categoryId
                 };
 
                 db.Products.Add(product);
@@ -192,6 +211,131 @@ while (isRunning)
                 else
                 {
                     Console.WriteLine("Product not found!");
+                }
+
+                break;
+            }
+
+        case "9":
+            {
+                Console.Write("Product ID: ");
+                int id = int.Parse(Console.ReadLine()!);
+
+                var product = db.Products.FirstOrDefault(x => x.Id == id);
+
+                if (product != null)
+                {
+                    product.IsDeleted = true;
+                    db.SaveChanges();
+
+                    Console.WriteLine("Product deleted (soft delete)!");
+                }
+                else
+                {
+                    Console.WriteLine("Product not found!");
+                }
+
+                break;
+            }
+
+        case "10":
+            {
+                var categories = db.Categories.ToList();
+
+                foreach (var category in categories)
+                {
+                    Console.WriteLine($"\nCATEGORY: {category.Name}");
+
+                    var products = db.Products
+                        .Where(x => x.CategoryId == category.Id && x.IsDeleted == false)
+                        .ToList();
+
+                    foreach (var product in products)
+                    {
+                        Console.WriteLine($"{product.Name} | {product.Price}");
+                    }
+                }
+
+                break;
+            }
+
+        case "11":
+            {
+                var categories = db.Categories.ToList();
+
+                foreach (var category in categories)
+                {
+                    int count = db.Products
+                        .Where(x => x.CategoryId == category.Id && x.IsDeleted == false)
+                        .Count();
+
+                    Console.WriteLine($"{category.Name} | {count} products");
+                }
+
+                break;
+            }
+
+        case "12":
+            {
+                var categories = db.Categories.ToList();
+
+                foreach (var category in categories)
+                {
+                    var product = db.Products
+                        .Where(x => x.CategoryId == category.Id && x.IsDeleted == false)
+                        .OrderBy(x => x.Price)
+                        .FirstOrDefault();
+
+                    if (product != null)
+                    {
+                        Console.WriteLine($"{category.Name} | {product.Name} | {product.Price}");
+                    }
+                }
+
+                break;
+            }
+
+        case "13":
+            {
+                var categories = db.Categories.ToList();
+
+                foreach (var category in categories)
+                {
+                    var products = db.Products
+                        .Where(x => x.CategoryId == category.Id && x.IsDeleted == false);
+
+                    if (products.Any())
+                    {
+                        decimal avg = products.Average(x => x.Price);
+
+                        Console.WriteLine($"{category.Name} | Average price: {avg}");
+                    }
+                }
+
+                break;
+            }
+
+        case "14":
+            {
+                var categories = db.Categories.ToList();
+
+                foreach (var category in categories)
+                {
+                    Console.WriteLine($"\nCATEGORY: {category.Name}");
+
+                    var products = db.Products
+                        .Where(x => x.CategoryId == category.Id && x.IsDeleted == true)
+                        .ToList();
+
+                    if (products.Count == 0)
+                    {
+                        Console.WriteLine("No deleted products");
+                    }
+
+                    foreach (var product in products)
+                    {
+                        Console.WriteLine($"{product.Id} | {product.Name} | {product.Price}");
+                    }
                 }
 
                 break;

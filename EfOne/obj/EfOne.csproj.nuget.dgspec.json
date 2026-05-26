@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\EfOne.csproj": {}
+    "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\EfOne.csproj": {
+    "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\EfOne.csproj",
+        "projectUniqueName": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj",
         "projectName": "EfOne",
-        "projectPath": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\EfOne.csproj",
+        "projectPath": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj",
         "packagesPath": "C:\\Users\\mcalchemist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mcalchemist\\source\\repos\\EfOne\\EfOne\\obj\\",
+        "outputPath": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mcalchemist\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -40,10 +41,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

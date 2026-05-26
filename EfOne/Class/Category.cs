@@ -8,6 +8,10 @@
 
         public string Description { get; set; } = null!;
 
+        public bool IsDeleted { get; set; } = false;
+
         public DateTime CreatedAt { get; set; }
+
+        public List<Product> Products { get; set; } = new();
     }
 }
