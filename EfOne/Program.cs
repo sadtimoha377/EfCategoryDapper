@@ -1,7 +1,17 @@
-﻿using EfOne.Data;
+﻿using AutoMapper;
+using EfOne.Data;
 using EfOne.Models;
+using EfOne.Profiles;
+using Microsoft.EntityFrameworkCore;
 
 bool isRunning = true;
+
+var config = new MapperConfiguration(cfg =>
+{
+    cfg.AddProfile<ProductDetailedProfile>();
+});
+
+IMapper mapper = config.CreateMapper();
 
 while (isRunning)
 {
@@ -20,6 +30,10 @@ while (isRunning)
     Console.WriteLine("12 - Cheapest product in categories");
     Console.WriteLine("13 - Average price in categories");
     Console.WriteLine("14 - Show deleted products");
+    Console.WriteLine("15 - Add brand");
+    Console.WriteLine("16 - Brand count");
+    Console.WriteLine("17 - Products sorted by brand");
+    Console.WriteLine("18 - Hard delete");
     Console.WriteLine("0 - Exit");
 
     Console.Write("Your choice: ");
@@ -162,21 +176,17 @@ while (isRunning)
                 Console.Write("Category ID: ");
                 int categoryId = int.Parse(Console.ReadLine()!);
 
-                var category = db.Categories.Find(categoryId);
-
-                if (category == null)
-                {
-                    Console.WriteLine("Category not found!");
-                    break;
-                }
+                Console.Write("Brand ID: ");
+                int brandId = int.Parse(Console.ReadLine()!);
 
                 Product product = new()
                 {
                     Name = name!,
                     Description = description!,
                     Price = price,
-                    IsDeleted = false,
-                    CategoryId = categoryId
+                    CategoryId = categoryId,
+                    BrandId = brandId,
+                    IsDeleted = false
                 };
 
                 db.Products.Add(product);
@@ -226,9 +236,11 @@ while (isRunning)
                 if (product != null)
                 {
                     product.IsDeleted = true;
+                    product.DeletedAt = DateTime.Now;
+
                     db.SaveChanges();
 
-                    Console.WriteLine("Product deleted (soft delete)!");
+                    Console.WriteLine("Soft deleted!");
                 }
                 else
                 {
@@ -337,6 +349,71 @@ while (isRunning)
                         Console.WriteLine($"{product.Id} | {product.Name} | {product.Price}");
                     }
                 }
+
+                break;
+            }
+
+        case "15":
+            {
+                Console.Write("Brand name: ");
+                string? name = Console.ReadLine();
+
+                Brand brand = new()
+                {
+                    Name = name!
+                };
+
+                db.Brands.Add(brand);
+                db.SaveChanges();
+
+                Console.WriteLine("Brand added!");
+                break;
+            }
+
+        case "16":
+            {
+                var brands = db.Brands.ToList();
+
+                foreach (var brand in brands)
+                {
+                    int count = db.Products
+                        .Count(x => x.BrandId == brand.Id);
+
+                    Console.WriteLine($"{brand.Name} | {count} products");
+                }
+
+                break;
+            }
+
+        case "17":
+            {
+                var products = db.Products
+                    .Include(x => x.Brand)
+                    .Where(x => !x.IsDeleted)
+                    .OrderBy(x => x.Brand.Name)
+                    .ToList();
+
+                foreach (var product in products)
+                {
+                    Console.WriteLine(
+                        $"{product.Name} | {product.Brand.Name} | {product.Price}");
+                }
+
+                break;
+            }
+
+        case "18":
+            {
+                var products = db.Products
+                    .Where(x => x.DeletedAt != null)
+                    .ToList();
+
+                Console.WriteLine($"Found: {products.Count}");
+
+                db.Products.RemoveRange(products);
+                db.SaveChanges();
+
+                Console.WriteLine("Hard delete complete!");
 
                 break;
             }

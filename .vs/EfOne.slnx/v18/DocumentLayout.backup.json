@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526021529_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EfOne\\Migrations\\20260526021529_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526021428_AddIsDeletedAndCategoryFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EfOne\\Migrations\\20260526021428_AddIsDeletedAndCategoryFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\class\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\class\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526025432_AddBrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EfOne\\Migrations\\20260526025432_AddBrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\efone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\efone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\profile\\productdetailedprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\profile\\productdetailedprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\dtos\\productdetaileddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\dtos\\productdetaileddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\migrations\\20260526021529_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\migrations\\20260526021529_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\migrations\\20260525182447_addproductstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\migrations\\20260525182447_addproductstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|c:\\users\\mcalchemist\\source\\repos\\efcategorydapper\\efone\\migrations\\20260526021428_addisdeletedandcategoryfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EC1CF0-0054-77EA-D87F-AA9FE214CCD6}|EfOne\\EfOne.csproj|solutionrelative:efone\\migrations\\20260526021428_addisdeletedandcategoryfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +66,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260526025432_AddBrand.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526025432_AddBrand.cs",
+              "RelativeDocumentMoniker": "EfOne\\Migrations\\20260526025432_AddBrand.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526025432_AddBrand.cs",
+              "RelativeToolTip": "EfOne\\Migrations\\20260526025432_AddBrand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T02:54:32.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfOne",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj",
+              "RelativeDocumentMoniker": "EfOne\\EfOne.csproj",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\EfOne.csproj",
+              "RelativeToolTip": "EfOne\\EfOne.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-26T02:51:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Program.cs",
+              "RelativeDocumentMoniker": "EfOne\\Program.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Program.cs",
+              "RelativeToolTip": "EfOne\\Program.cs",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAAwJoBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:25:08.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EfOne\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Category.cs",
+              "RelativeToolTip": "EfOne\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:26:56.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDetailedProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Profile\\ProductDetailedProfile.cs",
+              "RelativeDocumentMoniker": "EfOne\\Profile\\ProductDetailedProfile.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Profile\\ProductDetailedProfile.cs",
+              "RelativeToolTip": "EfOne\\Profile\\ProductDetailedProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T02:41:16.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetailedDto.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Dtos\\ProductDetailedDto.cs",
+              "RelativeDocumentMoniker": "EfOne\\Dtos\\ProductDetailedDto.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Dtos\\ProductDetailedDto.cs",
+              "RelativeToolTip": "EfOne\\Dtos\\ProductDetailedDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T02:42:04.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EfOne\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Product.cs",
+              "RelativeToolTip": "EfOne\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:23:51.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EfOne\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EfOne\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:28:02.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "EfOne\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Models\\Brand.cs",
+              "RelativeToolTip": "EfOne\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T02:31:41.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "20260526021529_Init.cs",
               "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526021529_Init.cs",
               "RelativeDocumentMoniker": "EfOne\\Migrations\\20260526021529_Init.cs",
@@ -63,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "20260526021428_AddIsDeletedAndCategoryFix.cs",
               "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260526021428_AddIsDeletedAndCategoryFix.cs",
               "RelativeDocumentMoniker": "EfOne\\Migrations\\20260526021428_AddIsDeletedAndCategoryFix.cs",
@@ -76,20 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Class\\Product.cs",
-              "RelativeDocumentMoniker": "EfOne\\Class\\Product.cs",
-              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Class\\Product.cs",
-              "RelativeToolTip": "EfOne\\Class\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:23:51.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "20260525174107_AddCategoryTable.cs",
               "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
               "RelativeDocumentMoniker": "EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
@@ -97,24 +221,12 @@
               "RelativeToolTip": "EfOne\\Migrations\\20260525174107_AddCategoryTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:41:07.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Program.cs",
-              "RelativeDocumentMoniker": "EfOne\\Program.cs",
-              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Program.cs",
-              "RelativeToolTip": "EfOne\\Program.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAAAAcBAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:25:08.905Z",
+              "WhenOpened": "2026-05-25T17:41:07.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "20260525182447_AddProductsTable.cs",
               "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\20260525182447_AddProductsTable.cs",
               "RelativeDocumentMoniker": "EfOne\\Migrations\\20260525182447_AddProductsTable.cs",
@@ -122,44 +234,21 @@
               "RelativeToolTip": "EfOne\\Migrations\\20260525182447_AddProductsTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:24:47.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Class\\Category.cs",
-              "RelativeDocumentMoniker": "EfOne\\Class\\Category.cs",
-              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Class\\Category.cs",
-              "RelativeToolTip": "EfOne\\Class\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:26:56.361Z",
+              "WhenOpened": "2026-05-25T18:24:47.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeToolTip": "EfOne\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:41:23.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EfOne\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\mcalchemist\\source\\repos\\EfCategoryDapper\\EfOne\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EfOne\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T17:28:02.504Z"
+              "WhenOpened": "2026-05-25T17:41:23.201Z",
+              "EditorCaption": ""
             }
           ]
         }

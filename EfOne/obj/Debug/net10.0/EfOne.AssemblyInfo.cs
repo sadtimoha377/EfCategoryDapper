@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EfOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3924e7e028c975d93f197cea5a14f45553ea430")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63d6f4546a39b992df1a4fb0d4f89d3ea2b505f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EfOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EfOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
