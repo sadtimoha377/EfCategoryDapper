@@ -1,14 +1,15 @@
-Створіть декілька нових категорій, додайте нові товари до кожної з нових категорій.
-<img width="955" height="629" alt="Screenshot 2026-05-26 051955" src="https://github.com/user-attachments/assets/2fc20024-1320-44c7-91b4-dc160430341d" />
+Згрупувати бренди, та вивести кількість продуктів до кожного бренду
+<img width="956" height="506" alt="Screenshot 2026-05-26 060111" src="https://github.com/user-attachments/assets/f96d3b7f-d7ab-4d9a-8542-5e90bb93a0ec" />
 
-Виведіть видалені товари з кожної категорії:
-<img width="748" height="615" alt="Screenshot 2026-05-26 051033" src="https://github.com/user-attachments/assets/7a38ca3e-44cb-4862-b2fd-87ed85ab22a0" />
 
-Виведіть кількість товарів у кожній категорії:
-<img width="919" height="732" alt="Screenshot 2026-05-26 051848" src="https://github.com/user-attachments/assets/236db7ce-2eea-4ecc-9841-1dc15eb33280" />
+Вивести середню ціну по кожній категорії
+<img width="957" height="502" alt="Screenshot 2026-05-26 060122" src="https://github.com/user-attachments/assets/8f0dd831-0bfd-4816-b6c7-7dcead48e921" />
 
-Виведіть товар з найменшою ціною у кожній категорії:
-<img width="935" height="734" alt="Screenshot 2026-05-26 051902" src="https://github.com/user-attachments/assets/e57a7427-ce65-4002-b3ec-6c72b030d3a5" />
 
-Виведіть середню ціну товарів по кожній категорії:
-<img width="915" height="730" alt="Screenshot 2026-05-26 051942" src="https://github.com/user-attachments/assets/ce058b4a-4899-4480-8e4b-eb9b20de4fdb" />
+Вивести продукти, відсортувати їх за брендом
+<img width="954" height="601" alt="Screenshot 2026-05-26 060236" src="https://github.com/user-attachments/assets/0cfcc61d-56b3-488b-a374-84a1f7b22750" />
+
+
+Зробити хард видалення тих продуктів у яких часова мітка не пуста.(попередньо видалити продукти використовуючи софт-видалення)
+<img width="472" height="913" alt="Screenshot 2026-05-26 060651" src="https://github.com/user-attachments/assets/b3ad9352-6479-4ba6-b506-7ede71e1a6b1" />
+
